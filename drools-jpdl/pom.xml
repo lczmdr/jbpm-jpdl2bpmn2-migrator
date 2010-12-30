@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.plugtree</groupId>
+    <artifactId>jbpm-jpdl2bpmn2-migrator</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>drools-jpdl</artifactId>
+  <packaging>jar</packaging>
+  <name>Drools :: Process :: jPDL3</name>
+
+  <dependencies>
+    <!-- Internal dependencies -->
+    <dependency>
+      <groupId>org.drools</groupId>
+      <artifactId>drools-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.drools</groupId>
+      <artifactId>drools-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.drools</groupId>
+      <artifactId>drools-compiler</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.drools</groupId>
+      <artifactId>drools-flow-core</artifactId>
+      <version>5.2.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.drools</groupId>
+      <artifactId>drools-flow-compiler</artifactId>
+      <version>5.2.0-SNAPSHOT</version>
+    </dependency>
+
+    <!-- External dependencies -->
+    <dependency>
+      <groupId>org.jbpm.jbpm3</groupId>
+      <artifactId>jbpm-jpdl</artifactId>
+      <version>3.2.6.SP1</version>
+    </dependency>
+  </dependencies>
+
+  <properties>
+    <jbpm.version>5.0-SNAPSHOT</jbpm.version>
+    <drools.version>5.2.0-SNAPSHOT</drools.version>
+  </properties>
+
+</project>

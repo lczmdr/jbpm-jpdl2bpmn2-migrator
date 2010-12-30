@@ -1,0 +1,32 @@
+<process xmlns="http://drools.org/drools-5.0/process" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://drools.org/drools-5.0/process drools-processes-5.0.xsd" type="RuleFlow" name="flow" id="simple" package-name="org.drools.examples" >
+<header>
+</header>
+<nodes>
+<state id="2" name="first state" >
+    <constraints>
+        <constraint toNodeId="3" name="signalTofork1" />
+    </constraints>
+</state>
+<actionNode id="4" name="node1">
+    <action type="expression" dialect="java" >
+    </action>
+</actionNode>
+<end id="8" name="end" />
+<join id="6" name="join1" type="1" />
+<start id="1" name="start" />
+<split id="3" name="fork1" type="1" />
+<state id="7" name="last state" >
+    <constraints>
+        <constraint toNodeId="8" name="signalToend" />
+    </constraints>
+</state>
+<actionNode id="5" name="node2">
+    <action type="expression" dialect="java" >
+    </action>
+</actionNode>
+</nodes>
+<connections>
+    <connection from="2" to="3" />
+    <connection from="4" to="6" />
+</connections>
+</process>
