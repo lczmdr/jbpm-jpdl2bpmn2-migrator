@@ -16,8 +16,8 @@
 
 package org.drools.jpdl.instance.node;
 
-import org.drools.process.instance.ProcessInstance;
-import org.drools.workflow.instance.NodeInstanceContainer;
+import org.jbpm.process.instance.ProcessInstance;
+import org.jbpm.workflow.instance.NodeInstanceContainer;
 
 public class EndStateInstance extends JpdlNodeInstance {
 

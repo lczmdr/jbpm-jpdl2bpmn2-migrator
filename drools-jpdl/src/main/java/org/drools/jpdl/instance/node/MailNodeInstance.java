@@ -19,7 +19,7 @@ package org.drools.jpdl.instance.node;
 import org.drools.jpdl.core.node.MailNode;
 import org.drools.process.instance.WorkItemManager;
 import org.drools.process.instance.impl.WorkItemImpl;
-import org.drools.workflow.instance.NodeInstance;
+import org.jbpm.workflow.instance.NodeInstance;
 
 public class MailNodeInstance extends JpdlNodeInstance {
 

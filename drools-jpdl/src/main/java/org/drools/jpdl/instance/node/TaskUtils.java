@@ -21,11 +21,11 @@ import java.util.List;
 import java.util.Map;
 
 import org.drools.jpdl.instance.node.JpdlNodeInstance.JpdlExecutionContext;
-import org.drools.process.core.context.swimlane.SwimlaneContext;
-import org.drools.process.core.context.variable.VariableScope;
+import org.jbpm.process.core.context.swimlane.SwimlaneContext;
+import org.jbpm.process.core.context.variable.VariableScope;
 import org.drools.process.instance.WorkItem;
-import org.drools.process.instance.context.swimlane.SwimlaneContextInstance;
-import org.drools.process.instance.context.variable.VariableScopeInstance;
+import org.jbpm.process.instance.context.swimlane.SwimlaneContextInstance;
+import org.jbpm.process.instance.context.variable.VariableScopeInstance;
 import org.drools.process.instance.impl.WorkItemImpl;
 import org.jbpm.JbpmException;
 import org.jbpm.calendar.BusinessCalendar;

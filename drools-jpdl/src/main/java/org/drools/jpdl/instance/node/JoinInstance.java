@@ -22,8 +22,8 @@ import java.util.Map;
 
 import org.drools.definition.process.Connection;
 import org.drools.jpdl.core.node.Join;
-import org.drools.workflow.core.Node;
-import org.drools.workflow.instance.NodeInstance;
+import org.jbpm.workflow.core.Node;
+import org.jbpm.workflow.instance.NodeInstance;
 import org.jbpm.graph.exe.Token;
 
 public class JoinInstance extends JpdlNodeInstance {

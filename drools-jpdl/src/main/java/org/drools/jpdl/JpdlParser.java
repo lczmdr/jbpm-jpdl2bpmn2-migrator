@@ -38,16 +38,16 @@ import org.drools.jpdl.core.node.State;
 import org.drools.jpdl.core.node.SuperState;
 import org.drools.jpdl.core.node.TaskNode;
 import org.drools.process.core.ParameterDefinition;
-import org.drools.process.core.context.swimlane.Swimlane;
-import org.drools.process.core.context.swimlane.SwimlaneContext;
 import org.drools.process.core.datatype.impl.type.StringDataType;
 import org.drools.process.core.impl.ParameterDefinitionImpl;
-import org.drools.process.core.validation.ProcessValidationError;
-import org.drools.workflow.core.Node;
 import org.jbpm.graph.def.Event;
 import org.jbpm.graph.def.ExceptionHandler;
 import org.jbpm.graph.def.ProcessDefinition;
+import org.jbpm.process.core.context.swimlane.Swimlane;
+import org.jbpm.process.core.context.swimlane.SwimlaneContext;
+import org.jbpm.process.core.validation.ProcessValidationError;
 import org.jbpm.taskmgmt.def.Task;
+import org.jbpm.workflow.core.Node;
 
 public class JpdlParser {
 

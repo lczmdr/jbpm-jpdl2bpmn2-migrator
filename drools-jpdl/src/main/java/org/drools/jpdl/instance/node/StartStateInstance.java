@@ -17,11 +17,11 @@
 package org.drools.jpdl.instance.node;
 
 import org.drools.jpdl.core.node.StartState;
-import org.drools.process.core.context.swimlane.SwimlaneContext;
-import org.drools.process.instance.ProcessInstance;
+import org.jbpm.process.core.context.swimlane.SwimlaneContext;
+import org.jbpm.process.instance.ProcessInstance;
 import org.drools.process.instance.WorkItem;
 import org.drools.process.instance.WorkItemManager;
-import org.drools.process.instance.context.swimlane.SwimlaneContextInstance;
+import org.jbpm.process.instance.context.swimlane.SwimlaneContextInstance;
 import org.drools.process.instance.impl.WorkItemImpl;
 import org.drools.runtime.process.NodeInstance;
 import org.jbpm.graph.def.Event;

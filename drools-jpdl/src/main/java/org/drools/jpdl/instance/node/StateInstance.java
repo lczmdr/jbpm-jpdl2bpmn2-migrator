@@ -17,7 +17,7 @@
 package org.drools.jpdl.instance.node;
 
 import org.drools.runtime.process.NodeInstance;
-import org.drools.workflow.instance.node.EventBasedNodeInstanceInterface;
+import org.jbpm.workflow.instance.node.EventBasedNodeInstanceInterface;
 
 public class StateInstance extends JpdlNodeInstance implements EventBasedNodeInstanceInterface {
 

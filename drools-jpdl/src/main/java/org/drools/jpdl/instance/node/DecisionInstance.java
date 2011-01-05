@@ -17,12 +17,12 @@
 package org.drools.jpdl.instance.node;
 
 import org.drools.jpdl.core.node.Decision;
-import org.drools.workflow.instance.NodeInstance;
 import org.jbpm.JbpmException;
 import org.jbpm.graph.node.DecisionCondition;
 import org.jbpm.graph.node.DecisionHandler;
 import org.jbpm.instantiation.Delegation;
 import org.jbpm.jpdl.el.impl.JbpmExpressionEvaluator;
+import org.jbpm.workflow.instance.NodeInstance;
 
 public class DecisionInstance extends JpdlNodeInstance {
 

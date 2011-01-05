@@ -21,10 +21,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.drools.workflow.core.Node;
-import org.drools.workflow.core.impl.ConnectionImpl;
 import org.jbpm.graph.def.Event;
 import org.jbpm.graph.def.ExceptionHandler;
+import org.jbpm.workflow.core.Node;
+import org.jbpm.workflow.core.impl.ConnectionImpl;
 
 public class JpdlConnection extends ConnectionImpl {
 

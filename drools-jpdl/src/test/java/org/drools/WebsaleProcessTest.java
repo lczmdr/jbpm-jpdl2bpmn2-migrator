@@ -23,11 +23,11 @@ import java.util.Map;
 
 import org.drools.jpdl.JpdlParser;
 import org.drools.jpdl.core.JpdlProcess;
-import org.drools.process.core.context.variable.Variable;
-import org.drools.process.core.context.variable.VariableScope;
+import org.jbpm.process.core.context.variable.Variable;
+import org.jbpm.process.core.context.variable.VariableScope;
 import org.drools.process.core.datatype.impl.type.StringDataType;
-import org.drools.process.core.validation.ProcessValidationError;
-import org.drools.process.instance.impl.demo.UIWorkItemHandler;
+import org.jbpm.process.core.validation.ProcessValidationError;
+import org.jbpm.process.instance.impl.demo.UIWorkItemHandler;
 import org.drools.rule.Package;
 
 public class WebsaleProcessTest {

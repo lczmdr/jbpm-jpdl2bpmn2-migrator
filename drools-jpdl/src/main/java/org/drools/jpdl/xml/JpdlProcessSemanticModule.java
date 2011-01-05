@@ -16,37 +16,39 @@
 
 package org.drools.jpdl.xml;
 
-import org.drools.compiler.xml.processes.ActionNodeHandler;
-import org.drools.compiler.xml.processes.CompositeNodeHandler;
-import org.drools.compiler.xml.processes.ConnectionHandler;
-import org.drools.compiler.xml.processes.ConstraintHandler;
-import org.drools.compiler.xml.processes.EndNodeHandler;
-import org.drools.compiler.xml.processes.GlobalHandler;
-import org.drools.compiler.xml.processes.ImportHandler;
-import org.drools.compiler.xml.processes.InPortHandler;
-import org.drools.compiler.xml.processes.JoinNodeHandler;
-import org.drools.compiler.xml.processes.MappingHandler;
-import org.drools.compiler.xml.processes.MilestoneNodeHandler;
-import org.drools.compiler.xml.processes.OutPortHandler;
-import org.drools.compiler.xml.processes.ParameterHandler;
-import org.drools.compiler.xml.processes.ProcessHandler;
-import org.drools.compiler.xml.processes.RuleSetNodeHandler;
-import org.drools.compiler.xml.processes.SplitNodeHandler;
-import org.drools.compiler.xml.processes.SubProcessNodeHandler;
-import org.drools.compiler.xml.processes.TimerNodeHandler;
-import org.drools.compiler.xml.processes.TypeHandler;
-import org.drools.compiler.xml.processes.ValueHandler;
-import org.drools.compiler.xml.processes.VariableHandler;
-import org.drools.compiler.xml.processes.WorkHandler;
-import org.drools.compiler.xml.processes.WorkItemNodeHandler;
+import org.jbpm.compiler.xml.processes.ActionNodeHandler;
+import org.jbpm.compiler.xml.processes.CompositeNodeHandler;
+import org.jbpm.compiler.xml.processes.ConnectionHandler;
+import org.jbpm.compiler.xml.processes.ConstraintHandler;
+import org.jbpm.compiler.xml.processes.EndNodeHandler;
+import org.jbpm.compiler.xml.processes.GlobalHandler;
+import org.jbpm.compiler.xml.processes.ImportHandler;
+import org.jbpm.compiler.xml.processes.InPortHandler;
+import org.jbpm.compiler.xml.processes.JoinNodeHandler;
+import org.jbpm.compiler.xml.processes.MappingHandler;
+import org.jbpm.compiler.xml.processes.MilestoneNodeHandler;
+import org.jbpm.compiler.xml.processes.OutPortHandler;
+import org.jbpm.compiler.xml.processes.ParameterHandler;
+import org.jbpm.compiler.xml.processes.ProcessHandler;
+import org.jbpm.compiler.xml.processes.RuleSetNodeHandler;
+import org.jbpm.compiler.xml.processes.SplitNodeHandler;
+import org.jbpm.compiler.xml.processes.SubProcessNodeHandler;
+import org.jbpm.compiler.xml.processes.TimerNodeHandler;
+import org.jbpm.compiler.xml.processes.TypeHandler;
+import org.jbpm.compiler.xml.processes.ValueHandler;
+import org.jbpm.compiler.xml.processes.VariableHandler;
+import org.jbpm.compiler.xml.processes.WorkHandler;
+import org.jbpm.compiler.xml.processes.WorkItemNodeHandler;
 import org.drools.xml.DefaultSemanticModule;
 import org.drools.xml.SemanticModule;
 
 public class JpdlProcessSemanticModule extends DefaultSemanticModule implements SemanticModule {    
+
     public JpdlProcessSemanticModule() {
+
         super ( "http://drools.org/drools-4.0/process" );
 
-        addHandler( "process",
+        addHandler( "process-definition",
                            new ProcessHandler() );
         addHandler( "start",
                            new StartStateHandler() );

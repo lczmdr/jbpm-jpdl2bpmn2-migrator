@@ -16,8 +16,8 @@
 
 package org.drools.jpdl.core.node;
 
-import org.drools.workflow.core.Connection;
 import org.jbpm.taskmgmt.def.Task;
+import org.jbpm.workflow.core.Connection;
 
 public class StartState extends State {
 

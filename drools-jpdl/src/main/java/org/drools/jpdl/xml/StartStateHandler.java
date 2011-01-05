@@ -16,9 +16,9 @@
 
 package org.drools.jpdl.xml;
 
-import org.drools.compiler.xml.processes.AbstractNodeHandler;
 import org.drools.jpdl.core.node.StartState;
-import org.drools.workflow.core.Node;
+import org.jbpm.compiler.xml.processes.AbstractNodeHandler;
+import org.jbpm.workflow.core.Node;
 
 public class StartStateHandler extends AbstractNodeHandler {
     

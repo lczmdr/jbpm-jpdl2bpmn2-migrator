@@ -21,11 +21,11 @@ import java.util.List;
 import java.util.Map;
 
 import org.drools.definition.process.Connection;
-import org.drools.process.core.context.exception.ExceptionScope;
-import org.drools.workflow.core.impl.NodeImpl;
 import org.jbpm.graph.def.Action;
 import org.jbpm.graph.def.Event;
 import org.jbpm.graph.def.ExceptionHandler;
+import org.jbpm.process.core.context.exception.ExceptionScope;
+import org.jbpm.workflow.core.impl.NodeImpl;
 
 public class JpdlNode extends NodeImpl {
 
@@ -134,7 +134,7 @@ public class JpdlNode extends NodeImpl {
 			exceptionHandler.getExceptionClassName());
 	}
 
-	private class JpdlExceptionHandler implements org.drools.process.core.context.exception.ExceptionHandler {
+	private class JpdlExceptionHandler implements org.jbpm.process.core.context.exception.ExceptionHandler {
 
 		private ExceptionHandler exceptionHandler;
 		private String faultVariable;

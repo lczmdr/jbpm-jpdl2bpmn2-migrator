@@ -17,7 +17,7 @@
 package org.drools.jpdl.instance;
 
 import org.drools.jpdl.core.JpdlProcess;
-import org.drools.workflow.instance.impl.WorkflowProcessInstanceImpl;
+import org.jbpm.workflow.instance.impl.WorkflowProcessInstanceImpl;
 
 public class JpdlProcessInstance extends WorkflowProcessInstanceImpl {
 

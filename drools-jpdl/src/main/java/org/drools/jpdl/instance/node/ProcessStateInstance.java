@@ -20,9 +20,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import org.drools.WorkingMemory;
-import org.drools.event.RuleFlowGroupActivatedEvent;
-import org.drools.event.RuleFlowGroupDeactivatedEvent;
 import org.drools.event.process.ProcessCompletedEvent;
 import org.drools.event.process.ProcessEventListener;
 import org.drools.event.process.ProcessNodeLeftEvent;
@@ -30,12 +27,12 @@ import org.drools.event.process.ProcessNodeTriggeredEvent;
 import org.drools.event.process.ProcessStartedEvent;
 import org.drools.event.process.ProcessVariableChangedEvent;
 import org.drools.jpdl.core.node.ProcessState;
-import org.drools.process.core.context.variable.VariableScope;
-import org.drools.process.instance.ProcessInstance;
-import org.drools.process.instance.context.variable.VariableScopeInstance;
-import org.drools.workflow.instance.NodeInstance;
 import org.jbpm.context.def.VariableAccess;
 import org.jbpm.graph.def.Event;
+import org.jbpm.process.core.context.variable.VariableScope;
+import org.jbpm.process.instance.ProcessInstance;
+import org.jbpm.process.instance.context.variable.VariableScopeInstance;
+import org.jbpm.workflow.instance.NodeInstance;
 
 public class ProcessStateInstance extends JpdlNodeInstance implements ProcessEventListener {
 

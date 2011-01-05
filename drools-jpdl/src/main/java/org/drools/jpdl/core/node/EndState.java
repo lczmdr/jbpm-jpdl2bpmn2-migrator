@@ -16,7 +16,7 @@
 
 package org.drools.jpdl.core.node;
 
-import org.drools.workflow.core.Connection;
+import org.jbpm.workflow.core.Connection;
 
 public class EndState extends JpdlNode {
 

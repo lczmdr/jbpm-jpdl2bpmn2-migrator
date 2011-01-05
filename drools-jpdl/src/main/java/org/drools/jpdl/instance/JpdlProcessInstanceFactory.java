@@ -21,8 +21,8 @@ import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
 
-import org.drools.process.instance.AbstractProcessInstanceFactory;
-import org.drools.process.instance.ProcessInstance;
+import org.jbpm.process.instance.AbstractProcessInstanceFactory;
+import org.jbpm.process.instance.ProcessInstance;
 
 public class JpdlProcessInstanceFactory extends AbstractProcessInstanceFactory implements Externalizable {
 
